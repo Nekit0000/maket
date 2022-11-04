@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Titillium+Web&display=swap');
+
+* {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.heder {
+    width: 1920px; height: 72px;
+}
+
+.first {
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 120.93px; height: 13.16px;
+    float: left;
+    margin-top: 29.02px;
+}
+
+.nav {
+    float: right;
+    margin-top: 26px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #666666;
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.nav ul li:last-of-type {
+    margin-right: 0;
+}
+
+.link {
+    padding-bottom: 4px;
+    border-bottom: 1px solid transparent;
+    transition: all .2s;
+}
+
+.link:hover {
+    border-bottom: 1px solid #292929;
+}
+
+.link:active {
+    color: #404040;
+    border-bottom: 1px solid #404040;
+}
+
+.one {  
+    height: 600px;
+    overflow: hidden;
+}
+
+.one img {
+    width: 50%;
+}
+
+.header_text1 {
+    width: 50%;
+}
+
+.one img  {
+    float: right;
+}  
+
+.one h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 43px;
+    color: #4A4A4A;
+    padding-top: 120px;
+}
+
+.one p {
+    padding-top: 20px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4A4A4A;
+}
+
+
+.two {
+    height: 589px;
+    overflow: hidden;
+}
+
+.two img {
+    width: 50%;
+}
+
+.header_text2 {
+    width: 50%;
+}
+
+.two .header_text2 {
+    float: right;
+}
+
+.two h2 {
+    padding-top: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4A4A4A;
+}
+
+.two p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4A4A4A;
+}
+
+.two a {
+    text-decoration: none;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #1D6FF3;
+    transition: all .2s;
+    border-bottom: 1px solid transparent;
+}
+
+.two a:hover {
+    color: #104eb3;
+    border-bottom: 1px solid #292929;;
+}
+
+.three {
+    height: 589px;
+    overflow: hidden;
+}
+
+.three img {
+    width: 50%;
+}
+
+.header_text3 {
+    width: 50%;
+}
+
+.three  .header_text3 {
+    float: left;
+}
+
+.three  h3 {
+    padding-top: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4A4A4A;
+}
+
+.three  p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4A4A4A;
+}
+
+.three  a {
+    text-decoration: none;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #1D6FF3;
+    transition: all .2s;
+    border-bottom: 1px solid transparent;
+}
+
+.three a:hover {
+    color: #104eb3;
+    border-bottom: 1px solid #292929;;
+}
+
+.five {
+    background-color: #EEEEEE;
+    height: 284px;
+}
+
+.five .lerning {
+    width: 50%;
+}
+
+.five h2 {
+    padding-top: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4A4A4A;
+}
+
+.five p {
+    padding-top: 20px;
+    color: #4A4A4A;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.five .input {
+    float: right;
+    padding-top: 84px; 
+}
+
+.five input {
+    background: #FFFFFF;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: #979797;
+    border-radius: 4px 0px 0px 4px;
+    height: 32px;
+    width: 399;
+    box-shadow: 3px 3px 3px darkgrey;
+    float: left;
+}
+
+
+.five button {
+    background: #1D6FF3;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 0px 4px 4px 0px;
+    height: 32px;
+    width: 121px;
+    box-shadow: 3px 3px 3px darkgrey;
+    color: #FFFFFF;
+    
+}
+
+.six p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px; 
+    margin: 0 auto;
+    color: #4A4A4A;
+    margin-top: 60px;
+}
+
+.six a {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #637280;
+    text-decoration: none;
+}
+
+.six li:first-of-type {
+    margin-top: 20px;
+}
+
+.wrapper1 {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.wrapper1 div  {
+    float: left;
+    margin-right: 75px;
+}
+
+.six .link4:last-of-type {
+    margin-right: 0;
+}
+
+.six ul  {
+    list-style: none;
+}
+
+.six li {
+    margin-top: 8px;
+}
+
+.link1 {
+    height: 125px;
+    width: 185px;
+}
+
+.link2 {
+    height: 157px;
+    width: 167px;
+}
+
+.link3 {
+    height: 245px;
+    height: 235px;
+}
+        
+.link4 {
+    height: 157.4;
+    height: 140px;
+}
+
+.palka {
+    height: 3px;
+    width: 30px;
+    background: rgba(0, 0, 0, 0.1);
+    float: right;
+    margin-top: 24px;
+}
+   
+.img {
+    float: left;
+    width: 66px;
+    height: 19.45px;
+    margin-top: 27px
+}
+
+.img1 {
+    margin-top: 23.95px;
+}
+
+.img:last-of-type {
+    margin-right: 0;
+} 
+
+.four {
+    height: 819px;
+    
+} 
+
+.four .one_, .two_, .three_, .four_, .six_, .five_ {
+    height: 360px; width: 310px;
+    float: left;
+    margin-right: 25px;
+}
+
+.four img {
+    z-index: 1;
+    height: 168px; width: 315px;
+}
+
+div .opaciti {
+    opacity: 0.8;
+    z-index: 5;
+    margin-top: -60px;
+    background-color: white;
+    width: 220px; 
+    margin-left: 34px;
+}
+
+.four h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    z-index: 10;
+    margin-left: 13px;
+}
