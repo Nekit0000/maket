@@ -17,6 +17,11 @@ html, body {
     overflow: hidden;
 }
 
+.wrapper2 {
+    width: 1050px; height: 72px;
+    margin: 0 auto;
+}
+
 .wrapper {
     width: 1050px;
     margin: 0 auto;
